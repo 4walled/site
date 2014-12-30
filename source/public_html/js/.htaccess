@@ -1,0 +1,4 @@
+Options -Indexes
+ErrorDocument 404 http://4walled.org/doubtit.html
+ErrorDocument 403 http://4walled.org/banned.php
+deny from 99.241.100.62

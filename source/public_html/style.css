@@ -1,0 +1,242 @@
+/*
+Theme Name: Mushblue
+Theme URI: http://www.mukkamu.com
+Description: Nice WP Theme Mushblue is 2 columns, widget ready, theme with right sidebar. 
+Version: 1.0
+Author: Mu
+Author URI: http://www.tagtagweb.com
+
+Released under the <a href="http://www.opensource.org/licenses/gpl-license.php">GPL</a>.
+*/
+body
+{
+	color:#b6b6b6;
+	background:#000;
+	font:normal 13px/18px "Trebuchet Ms", "Lucida Grande", sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+/* pywalled starts here */
+#topnav
+{
+	list-style:none outside none;
+	padding:0;
+}
+
+#topnav li
+{
+	display: inline;
+	padding: 0em 1em;
+}
+
+#status_message
+{
+	text-align: center;
+}
+/* end of pywalled */
+
+#wrapper
+{
+	width: 800px;
+	margin: 0 auto 0 auto;
+	background-color: black;
+	text-align: left;
+}
+
+#sidebar
+{
+	text-align:center;
+	width:170px;
+	float:right;
+	line-height:1.5em;
+	display:inline;
+	background-color:#000;
+	margin:8px 8px 0 0;
+	padding:10px;
+}
+
+#sidebar ol
+{
+	padding: 0px;
+}
+#sidebar li
+{
+	padding-bottom: 10px;
+}
+
+#lsidebar
+{
+	text-align:left;
+	width:170px;
+	float:left;
+	line-height:1.5em;
+	display:inline;
+	margin:8px 8px 8px 0;
+	padding:10px;
+}
+
+#logo
+{
+	background:url('images/header.png') no-repeat;
+	height:150px;
+	width:800px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:20px;
+    display: block;
+}
+
+h2
+{
+	margin-bottom:10px;
+	font-size:14px;
+}
+
+a,a:visited
+{
+	color:#00e0ff;
+	text-decoration:none;
+}
+
+a:hover
+{
+	text-decoration:underline;
+}
+
+#searchform br
+{
+	display:none;
+}
+
+blockquote
+{
+	color:#999;
+}
+
+table
+{
+	margin:10px;
+}
+
+td
+{
+	font-weight:400;
+	padding:3px;
+}
+
+li.image
+{
+	display:inline;
+	width:250px;
+	height:250px;
+}
+
+li.marker
+{
+	display:inline;
+	width:0;
+	height:0;
+}
+
+img {
+	border:none;
+	}
+
+li.image img
+{
+	border:0;
+	margin:3px;
+	max-width:250px;
+	max-height:250px;
+}
+
+#imageList
+{
+	width:100%;
+	list-style-type:none;
+	text-align:justify;
+	margin:0;
+	padding:0;
+}
+
+#mainHeader
+{
+	height:50px;
+	margin:0;
+}
+
+#mainHeader .title
+{
+	text-align:center;
+	font-size:32px;
+}
+
+#loading
+{
+	text-align:center;
+	height:36px;
+}
+
+#mainImage {
+	text-align: center;
+}
+#mainImage img {
+	display: block;
+	margin: 0 auto;
+}
+
+.quote
+{
+	color:#789922;
+}
+
+.cmpre
+{
+	color:#707070;
+	text-align:right;
+	vertical-align:top;
+	white-space:nowrap;
+}
+
+.cmsub
+{
+	color:#2f0c5d;
+	font-weight:700;
+	font-size:1.1em;
+}
+
+.cmname
+{
+	color:#117743;
+	font-weight:700;
+}
+
+.cmsnipp
+{
+	color:red;
+	font-weight:700;
+}
+
+.cmtrip
+{
+	color:#117743;
+}
+
+.cmquote
+{
+	color:#3745b9;
+}
+
+.cmqlink a:link,.cmqlink a:visited
+{
+	text-decoration:none;
+	color:#000;
+}
+
+.cmqlink a:hover
+{
+	font-weight:700;
+	color:#000;
+}
