@@ -1,4 +1,4 @@
-<?php 
+<?php 
 include('connect.php');
 $File = "feed.xml"; 
 $Handle = fopen($File, 'w');
@@ -23,5 +23,5 @@ while($data=mysql_fetch_array($res))
     }   echo $filelist;
     $write="</channel>\n</rss>";
     fwrite($Handle, $write); 
-fclose($Handle); 
+fclose($Handle); 
 ?>
