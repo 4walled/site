@@ -22,7 +22,7 @@ if ($search == "random") {
                           array("md5, extension, Image.id, width, height"),
                           get_search_parameters(),
                           0);
-    
+
 }
 
 
@@ -46,12 +46,12 @@ if ($rec_count > 0) {
              $thumbsrc . substr($thumbname, 0, 2) . "/" . $thumbname,
              round($data['width'] / $data['height'], 3),
              $data['width'] . "x" . $data['height']);
-    
+
         echo "</a></li>";
-    
+
     }
 }
 else
 echo "<br /><center>This is the end of the internet! <img src=\"images/rageface.png\" /></center>";
 
-?>
+

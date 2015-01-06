@@ -56,7 +56,7 @@
         <option value="1080x56">1920x1080 in portrait</option>
     </select></td>
     </tr>
-    
+
     <tr align="left">
       <td align="right">Search Style:</td>
       <td>
