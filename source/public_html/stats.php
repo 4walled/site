@@ -1,12 +1,12 @@
 <?php
 
     include('connect.php');
-    
+
     // Get total number of images
     $query = "SELECT count(id) FROM Image;";
     $result = mysql_query($query) or die(mysql_error());
     $imageCount = mysql_result($result, 0, 0);
-    
+
     // Get number of images from /w/
     $query = "SELECT count(id) FROM Image WHERE source_id = '1';";
     $result = mysql_query($query) or die(mysql_error());
@@ -34,18 +34,18 @@
     $query = "SELECT md5, extension, width, height, id FROM Image ORDER BY id DESC LIMIT 0,1";
     $result = mysql_query($query) or die(mysql_error());
     $data = mysql_fetch_array($result);
-    
+
     $latest = $data['id'];
     $latestrez = $data['width'] . "x" . $data["height"];
     $latestt = $data["md5"] . ".jpg";
-    
+
     $query = "SELECT count(*) FROM Image where date_added > '" . $date . "';";
     $result = mysql_query($query) or die(mysql_error());
     $added = mysql_fetch_array($result);
     $added = $added[0];
     $hourly = round($added/(date("H")+1), 3);
 
-?>  
+?>
 <html>
 <head>
 <?php include_once('header.php');?>
@@ -68,11 +68,11 @@
     ?>
         <td width="234" >Last Added:<br>
             <a href="<?php echo $linksrc . $latest; ?>"><img src="thumb/<?php echo substr($latestt, 0, 2) . "/" . $latestt;?>" alt="lolwat"></a><?php echo "<br>".$latestrez;?></td>
-      
-        
+
+
           <tr>
             <td height="109" colspan="5"><div align="center">20 Most Downloaded</div></td> </tr></td></tr>
-    <?php 
+    <?php
     while($dldata=mysql_fetch_array($ress)) {
         if ($cols==4) {
             echo "<tr>";
@@ -87,7 +87,7 @@
 if ($cols==3){echo "</tr>";$cols=-1;}
 $cols+=1;
                 }
-                ?>  
+                ?>
       </table></center>
       </body>
       </html>

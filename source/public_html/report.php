@@ -26,7 +26,7 @@ if($_GET["mode"] == "report") {
 } elseif($_GET["mode"] == "updatetags") {
     $tags = mysql_real_escape_string(strip_tags($_GET["tags"]));
     if (sizeof($tags != 0)) {
-        $query = "DELETE FROM Tag_Image WHERE image_id = '" . $id . "';";        
+        $query = "DELETE FROM Tag_Image WHERE image_id = '" . $id . "';";
     }
     mysql_query($query) or die(mysql_error());
     foreach (explode(",", $tags) as $tag) {
@@ -42,16 +42,16 @@ if($_GET["mode"] == "report") {
                 $tagid = mysql_fetch_array($result);
                 $tagid = $result[0];
                 $query = "INSERT INTO Tag_Image (image_id, tag_id) VALUES ('" . $id . "', '" . $tagid . "')";
-                mysql_query($query) or die(mysql_error());                    
+                mysql_query($query) or die(mysql_error());
             } else {
                 $tagid = mysql_fetch_array($result);
                 $tagid = $tagid[0];
                 $query = "INSERT INTO Tag_Image (image_id, tag_id) VALUES ('" . $id . "', '" . $tagid . "')";
-                mysql_query($query) or die(mysql_error());                    
+                mysql_query($query) or die(mysql_error());
             }
         }
     }
     echo "The tags for image $id have been updated. Thank you!";
 }
 
-?>
+

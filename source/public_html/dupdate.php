@@ -15,4 +15,4 @@ mysql_close();
 
 header("Location: ./donate.php");
 ob_end_flush();
-?>
+

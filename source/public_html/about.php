@@ -19,15 +19,15 @@ include_once("common.php");
     <li><a href="#Tagging">How do I tag images?</a></li>
     <li><a href="#4scrape">What happed to 4scrape?</a></li>
     <li><a href="#WhyAds">Why are there ads everywhere?</a></li>
-</ol>    
-    
+</ol>
+
 <h1 id="Whatis">What is this site?</h1>
-<p>If you're aware of the 4chan or 7chan imageboards,<br />
+<p>If you&rsquo;re aware of the 4chan or 7chan imageboards,<br />
 then you would be aware they have wallpaper boards.<br />
 The problem with these boards is they are frequently clogged<br />
 with people posting the same wallpapers over and over again,<br />
-so this site downloads all the wallpapers posted on 4chan’s /w/, /hr/, and /wg/ boards<br />
-and 7chan’s /wp/ board.<br />
+so this site downloads all the wallpapers posted on 4chan&rsquo;s /w/, /hr/, and /wg/ boards<br />
+and 7chan&rsquo;s /wp/ board.<br />
 It then stores the image in a database ready for you to search.<br />
 Some images have no searchable features<br />
 (for example, the filename is "1251193196442.jpg")<br />
@@ -56,14 +56,14 @@ Other problems or suggestions either e-mail or drop by on the <a href="irc://irc
 <h1 id="Tagging">How do I tag images?</h1>
 <p>Whenever you search for images, it shows the results in a thumbnailed form.<br />
 When you click on the thumbnail, an image detail page is loaded with a field where you can edit tags.<br />
-There is also a report button to report images which either aren't wallpapers,<br />
+There is also a report button to report images which either aren&rsquo;t wallpapers,<br />
 are just plain stupid, or are illegal in most jurisdictions for wallpapers (e.g. gore, cp, bestiality).</p>
 
 <h1 id="4scrape">What happened to 4scrape?</h1>
 <p>See <a href="http://blog.desudesudesu.org/?p=1525" target="_blank">http://blog.desudesudesu.org/?p=1525</a> for the core of the matter.<br />
-I chose not to use his code for the reasons he's mentioned as well.<br />
+I chose not to use his code for the reasons he&rsquo;s mentioned as well.<br />
 For anyone who has viewed it,<br />
-they would also agree that it’s poorly documented so it's hard for other programmers to pick up and correct.</p>
+they would also agree that it&rsquo;s poorly documented so it&rsquo;s hard for other programmers to pick up and correct.</p>
 
 <h1 id="WhyAds">Why are there ads everywhere?</h1>
 <p>A valid question.<br />

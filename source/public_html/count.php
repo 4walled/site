@@ -14,4 +14,4 @@ if(TRUE)
   echo "There are ".$rec_count[0]." matching records found. Click Search to view result.";
 }
 
-?>
+
